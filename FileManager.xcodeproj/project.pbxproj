@@ -1,0 +1,478 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		DEDB7467193A129A00347022 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DEDB7466193A129A00347022 /* Foundation.framework */; };
+		DEDB7469193A129A00347022 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DEDB7468193A129A00347022 /* CoreGraphics.framework */; };
+		DEDB746B193A129A00347022 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DEDB746A193A129A00347022 /* UIKit.framework */; };
+		DEDB7471193A129A00347022 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = DEDB746F193A129A00347022 /* InfoPlist.strings */; };
+		DEDB7473193A129A00347022 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = DEDB7472193A129A00347022 /* main.m */; };
+		DEDB7477193A129A00347022 /* MPAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = DEDB7476193A129A00347022 /* MPAppDelegate.m */; };
+		DEDB747A193A129A00347022 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DEDB7478193A129A00347022 /* Main.storyboard */; };
+		DEDB747D193A129A00347022 /* MPViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DEDB747C193A129A00347022 /* MPViewController.m */; };
+		DEDB747F193A129A00347022 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DEDB747E193A129A00347022 /* Images.xcassets */; };
+		DEDB7486193A129A00347022 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DEDB7485193A129A00347022 /* XCTest.framework */; };
+		DEDB7487193A129A00347022 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DEDB7466193A129A00347022 /* Foundation.framework */; };
+		DEDB7488193A129A00347022 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DEDB746A193A129A00347022 /* UIKit.framework */; };
+		DEDB7490193A129A00347022 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = DEDB748E193A129A00347022 /* InfoPlist.strings */; };
+		DEDB7492193A129A00347022 /* FileManagerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = DEDB7491193A129A00347022 /* FileManagerTests.m */; };
+		DEDB749D193A12D100347022 /* MPImageManager.m in Sources */ = {isa = PBXBuildFile; fileRef = DEDB749C193A12D100347022 /* MPImageManager.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		DEDB7489193A129A00347022 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DEDB745B193A129A00347022 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DEDB7462193A129A00347022;
+			remoteInfo = FileManager;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		DEDB7463193A129A00347022 /* FileManager.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FileManager.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DEDB7466193A129A00347022 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		DEDB7468193A129A00347022 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		DEDB746A193A129A00347022 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		DEDB746E193A129A00347022 /* FileManager-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "FileManager-Info.plist"; sourceTree = "<group>"; };
+		DEDB7470193A129A00347022 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		DEDB7472193A129A00347022 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		DEDB7474193A129A00347022 /* FileManager-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "FileManager-Prefix.pch"; sourceTree = "<group>"; };
+		DEDB7475193A129A00347022 /* MPAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MPAppDelegate.h; sourceTree = "<group>"; };
+		DEDB7476193A129A00347022 /* MPAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MPAppDelegate.m; sourceTree = "<group>"; };
+		DEDB7479193A129A00347022 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		DEDB747B193A129A00347022 /* MPViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MPViewController.h; sourceTree = "<group>"; };
+		DEDB747C193A129A00347022 /* MPViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MPViewController.m; sourceTree = "<group>"; };
+		DEDB747E193A129A00347022 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		DEDB7484193A129A00347022 /* FileManagerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FileManagerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DEDB7485193A129A00347022 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		DEDB748D193A129A00347022 /* FileManagerTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "FileManagerTests-Info.plist"; sourceTree = "<group>"; };
+		DEDB748F193A129A00347022 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		DEDB7491193A129A00347022 /* FileManagerTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FileManagerTests.m; sourceTree = "<group>"; };
+		DEDB749B193A12D100347022 /* MPImageManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MPImageManager.h; sourceTree = "<group>"; };
+		DEDB749C193A12D100347022 /* MPImageManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MPImageManager.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DEDB7460193A129A00347022 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DEDB7469193A129A00347022 /* CoreGraphics.framework in Frameworks */,
+				DEDB746B193A129A00347022 /* UIKit.framework in Frameworks */,
+				DEDB7467193A129A00347022 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DEDB7481193A129A00347022 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DEDB7486193A129A00347022 /* XCTest.framework in Frameworks */,
+				DEDB7488193A129A00347022 /* UIKit.framework in Frameworks */,
+				DEDB7487193A129A00347022 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		DEDB745A193A129A00347022 = {
+			isa = PBXGroup;
+			children = (
+				DEDB746C193A129A00347022 /* FileManager */,
+				DEDB748B193A129A00347022 /* FileManagerTests */,
+				DEDB7465193A129A00347022 /* Frameworks */,
+				DEDB7464193A129A00347022 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		DEDB7464193A129A00347022 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DEDB7463193A129A00347022 /* FileManager.app */,
+				DEDB7484193A129A00347022 /* FileManagerTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DEDB7465193A129A00347022 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				DEDB7466193A129A00347022 /* Foundation.framework */,
+				DEDB7468193A129A00347022 /* CoreGraphics.framework */,
+				DEDB746A193A129A00347022 /* UIKit.framework */,
+				DEDB7485193A129A00347022 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		DEDB746C193A129A00347022 /* FileManager */ = {
+			isa = PBXGroup;
+			children = (
+				DEDB7475193A129A00347022 /* MPAppDelegate.h */,
+				DEDB7476193A129A00347022 /* MPAppDelegate.m */,
+				DEDB7478193A129A00347022 /* Main.storyboard */,
+				DEDB747B193A129A00347022 /* MPViewController.h */,
+				DEDB747C193A129A00347022 /* MPViewController.m */,
+				DEDB749B193A12D100347022 /* MPImageManager.h */,
+				DEDB749C193A12D100347022 /* MPImageManager.m */,
+				DEDB747E193A129A00347022 /* Images.xcassets */,
+				DEDB746D193A129A00347022 /* Supporting Files */,
+			);
+			path = FileManager;
+			sourceTree = "<group>";
+		};
+		DEDB746D193A129A00347022 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				DEDB746E193A129A00347022 /* FileManager-Info.plist */,
+				DEDB746F193A129A00347022 /* InfoPlist.strings */,
+				DEDB7472193A129A00347022 /* main.m */,
+				DEDB7474193A129A00347022 /* FileManager-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		DEDB748B193A129A00347022 /* FileManagerTests */ = {
+			isa = PBXGroup;
+			children = (
+				DEDB7491193A129A00347022 /* FileManagerTests.m */,
+				DEDB748C193A129A00347022 /* Supporting Files */,
+			);
+			path = FileManagerTests;
+			sourceTree = "<group>";
+		};
+		DEDB748C193A129A00347022 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				DEDB748D193A129A00347022 /* FileManagerTests-Info.plist */,
+				DEDB748E193A129A00347022 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DEDB7462193A129A00347022 /* FileManager */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DEDB7495193A129A00347022 /* Build configuration list for PBXNativeTarget "FileManager" */;
+			buildPhases = (
+				DEDB745F193A129A00347022 /* Sources */,
+				DEDB7460193A129A00347022 /* Frameworks */,
+				DEDB7461193A129A00347022 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FileManager;
+			productName = FileManager;
+			productReference = DEDB7463193A129A00347022 /* FileManager.app */;
+			productType = "com.apple.product-type.application";
+		};
+		DEDB7483193A129A00347022 /* FileManagerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DEDB7498193A129A00347022 /* Build configuration list for PBXNativeTarget "FileManagerTests" */;
+			buildPhases = (
+				DEDB7480193A129A00347022 /* Sources */,
+				DEDB7481193A129A00347022 /* Frameworks */,
+				DEDB7482193A129A00347022 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DEDB748A193A129A00347022 /* PBXTargetDependency */,
+			);
+			name = FileManagerTests;
+			productName = FileManagerTests;
+			productReference = DEDB7484193A129A00347022 /* FileManagerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DEDB745B193A129A00347022 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = MP;
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = mpow;
+				TargetAttributes = {
+					DEDB7483193A129A00347022 = {
+						TestTargetID = DEDB7462193A129A00347022;
+					};
+				};
+			};
+			buildConfigurationList = DEDB745E193A129A00347022 /* Build configuration list for PBXProject "FileManager" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = DEDB745A193A129A00347022;
+			productRefGroup = DEDB7464193A129A00347022 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DEDB7462193A129A00347022 /* FileManager */,
+				DEDB7483193A129A00347022 /* FileManagerTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DEDB7461193A129A00347022 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DEDB747F193A129A00347022 /* Images.xcassets in Resources */,
+				DEDB7471193A129A00347022 /* InfoPlist.strings in Resources */,
+				DEDB747A193A129A00347022 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DEDB7482193A129A00347022 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DEDB7490193A129A00347022 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DEDB745F193A129A00347022 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DEDB7473193A129A00347022 /* main.m in Sources */,
+				DEDB747D193A129A00347022 /* MPViewController.m in Sources */,
+				DEDB749D193A12D100347022 /* MPImageManager.m in Sources */,
+				DEDB7477193A129A00347022 /* MPAppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DEDB7480193A129A00347022 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DEDB7492193A129A00347022 /* FileManagerTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		DEDB748A193A129A00347022 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DEDB7462193A129A00347022 /* FileManager */;
+			targetProxy = DEDB7489193A129A00347022 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		DEDB746F193A129A00347022 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DEDB7470193A129A00347022 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		DEDB7478193A129A00347022 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DEDB7479193A129A00347022 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		DEDB748E193A129A00347022 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DEDB748F193A129A00347022 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		DEDB7493193A129A00347022 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		DEDB7494193A129A00347022 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DEDB7496193A129A00347022 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "FileManager/FileManager-Prefix.pch";
+				INFOPLIST_FILE = "FileManager/FileManager-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		DEDB7497193A129A00347022 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "FileManager/FileManager-Prefix.pch";
+				INFOPLIST_FILE = "FileManager/FileManager-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		DEDB7499193A129A00347022 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/FileManager.app/FileManager";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "FileManager/FileManager-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "FileManagerTests/FileManagerTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		DEDB749A193A129A00347022 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/FileManager.app/FileManager";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "FileManager/FileManager-Prefix.pch";
+				INFOPLIST_FILE = "FileManagerTests/FileManagerTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DEDB745E193A129A00347022 /* Build configuration list for PBXProject "FileManager" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DEDB7493193A129A00347022 /* Debug */,
+				DEDB7494193A129A00347022 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DEDB7495193A129A00347022 /* Build configuration list for PBXNativeTarget "FileManager" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DEDB7496193A129A00347022 /* Debug */,
+				DEDB7497193A129A00347022 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		DEDB7498193A129A00347022 /* Build configuration list for PBXNativeTarget "FileManagerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DEDB7499193A129A00347022 /* Debug */,
+				DEDB749A193A129A00347022 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = DEDB745B193A129A00347022 /* Project object */;
+}
